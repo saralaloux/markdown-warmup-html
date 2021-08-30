@@ -1,0 +1,55 @@
+
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header, article, footer{
+    display: block;
+}
+body{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'futura', sans-serif;
+    background-image: url("mouaa.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+header{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 20px;
+}
+main{
+    padding-left: 80px;
+    padding-top: 50px;
+}
+article{
+    width: 800px;
+    padding-bottom: 30px;
+}
+h2{
+    font-size: 25px;
+}
+h1, h2{
+    font-family: 'Bebas Neue', cursive;
+}
+table, th, td{
+    border: white solid 1px;
+}
+th, td{
+    padding: 10px;
+}
+.checkbox{
+    list-style-type: none;
+}
+footer{
+    padding-top: 40px;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
