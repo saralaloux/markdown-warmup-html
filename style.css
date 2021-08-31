@@ -19,12 +19,12 @@ body{
 header{
     text-align: center;
     color: white;
-    font-size: 50px;
+    font-size: 60px;
     padding-top: 20px;
 }
 main{
     padding-left: 80px;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 article{
     width: 800px;
@@ -46,10 +46,16 @@ th, td{
     list-style-type: none;
 }
 footer{
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
+    background-color: white;
 }
 a{
-    color: white;
+    color: gray;
     text-decoration: none;
+}
+q{
+    font-size: 50px;
+    font-weight: lighter;
 }
